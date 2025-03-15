@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import React from 'react'
+import {HashRouter as Router,Route,Routes} from 'react-router-dom'
 import HomePage from './Component/HomePage/HomePage';
 
-function App() {
+let App=()=> {
   return (
-    <div>
-      <HomePage/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+      </Routes>
+    </Router> 
   );
 }
 
