@@ -41,7 +41,7 @@ let HomePage = () => {
     return (
         <div style={{ backgroundColor: "rgba(20,30,42,10)", color: "white", width: "100vw", height: "100vh" }}>
             <div className="row d-flex justify-content-center" style={{ width: "100vw" }}>
-                <div className="col-7 " style={{ backgroundColor: "rgba(200,200,150,200)",marginTop:"12%",borderRadius:"2%" }}>
+                <div className="col-8 " style={{ backgroundColor: "rgba(200,200,150,200)",marginTop:"12%",borderRadius:"2%" }}>
                     <div className="d-flex justify-content-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="red" class="bi bi-geo-alt-fill" viewBox="0 0 16 16" className="mt-4">
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
